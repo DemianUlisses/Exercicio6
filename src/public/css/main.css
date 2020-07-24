@@ -7,3 +7,12 @@ body {
 .logo {
   width: 30%;
 }
+
+.tarefas{
+  height: 130px;
+}
+
+.scrollable{
+  overflow-y: auto;
+  max-height: 300px;
+}

@@ -13,7 +13,11 @@ const NoteSchema = new Schema(
     user: {
       type: String,
       required: true
-    }
+    },
+    data: 
+    {type : Date,
+       default: Date.now
+    },
   },
   {
     timestamps: true
